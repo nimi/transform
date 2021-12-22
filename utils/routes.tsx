@@ -12,12 +12,6 @@ export const categorizedRoutes = [
         packageName: "@svgr/core",
         packageUrl: "https://github.com/smooth-code/svgr",
         title: "Transform | A polyglot web converter."
-      },
-      {
-        label: "to React Native",
-        path: "/svg-to-react-native",
-        packageName: "@svgr/core",
-        packageUrl: "https://github.com/smooth-code/svgr"
       }
     ]
   },
@@ -27,27 +21,12 @@ export const categorizedRoutes = [
       {
         label: "to JSX",
         path: "/html-to-jsx"
-      },
-      {
-        label: "to Pug",
-        path: "/html-to-pug",
-        packageName: "html2pug",
-        packageUrl: "https://github.com/izolate/html2pug"
       }
     ]
   },
   {
     category: "JSON",
     content: [
-      {
-        label: "to React PropTypes",
-        path: "/json-to-proptypes",
-        title: "Transform | All important transforms at one place."
-      },
-      {
-        label: "to Flow",
-        path: "/json-to-flow"
-      },
       {
         label: "to GraphQL",
         path: "/json-to-graphql",
@@ -62,59 +41,6 @@ export const categorizedRoutes = [
         packageName: "json_typegen_wasm"
       },
       {
-        label: "to MobX-State-Tree Model",
-        path: "/json-to-mobx-state-tree"
-      },
-      {
-        label: "to Sarcastic",
-        path: "/json-to-sarcastic",
-        packageName: "transform-json-types",
-        packageUrl: "https://github.com/transform-it/transform-json-types"
-      },
-      {
-        label: "to io-ts",
-        path: "/json-to-io-ts",
-        packageName: "transform-json-types",
-        packageUrl: "https://github.com/transform-it/transform-json-types"
-      },
-      {
-        label: "to Rust Serde",
-        path: "/json-to-rust-serde",
-        desc: "An online REPL for converting JSON to Rust Serde Structs."
-      },
-      {
-        label: "to Mongoose Schema",
-        path: "/json-to-mongoose",
-        packageName: "generate-schema",
-        packageUrl: "https://github.com/nijikokun/generate-schema"
-      },
-      {
-        label: "to Big Query Schema",
-        path: "/json-to-big-query",
-        packageName: "generate-schema",
-        packageUrl: "https://github.com/nijikokun/generate-schema"
-      },
-      {
-        label: "to MySQL",
-        path: "/json-to-mysql",
-        packageName: "generate-schema",
-        packageUrl: "https://github.com/nijikokun/generate-schema"
-      },
-      {
-        label: "to Scala Case Class",
-        path: "/json-to-scala-case-class"
-      },
-      {
-        label: "to Go Struct",
-        path: "/json-to-go",
-        packageName: "json-to-go",
-        packageUrl: "https://github.com/mholt/json-to-go"
-      },
-      {
-        label: "to Go Bson",
-        path: "/json-to-go-bson"
-      },
-      {
         label: "to YAML",
         path: "/json-to-yaml",
         packageName: "json2yaml",
@@ -123,12 +49,6 @@ export const categorizedRoutes = [
       {
         label: "to JSDoc",
         path: "/json-to-jsdoc"
-      },
-      {
-        label: "to Kotlin",
-        path: "/json-to-kotlin",
-        packageUrl: "https://www.npmjs.com/package/json_typegen_wasm",
-        packageName: "json_typegen_wasm"
       },
       {
         label: "to JSON Schema",
@@ -159,12 +79,6 @@ export const categorizedRoutes = [
         packageName: "json-schema-to-openapi-schema",
         packageUrl:
           "https://github.com/openapi-contrib/json-schema-to-openapi-schema"
-      },
-      {
-        label: "to Protobuf",
-        path: "json-schema-to-protobuf",
-        packageName: "jsonschema-protobuf",
-        packageUrl: "https://github.com/okdistribute/jsonschema-protobuf"
       }
     ]
   },
@@ -208,40 +122,6 @@ export const categorizedRoutes = [
       {
         label: "to TypeScript",
         path: "/graphql-to-typescript"
-      },
-      {
-        label: "to Flow",
-        path: "/graphql-to-flow"
-      },
-      {
-        label: "to JAVA",
-        path: "/graphql-to-java"
-      },
-      {
-        label: "to Resolvers Signature",
-        path: "/graphql-to-resolvers-signature"
-      },
-
-      {
-        label: "to Introspection JSON",
-        path: "/graphql-to-introspection-json"
-      },
-
-      {
-        label: "to Schema AST",
-        path: "/graphql-to-schema-ast"
-      },
-      {
-        label: "to Fragment Matcher",
-        path: "/graphql-to-fragment-matcher"
-      },
-      {
-        label: "to Components",
-        path: "/graphql-to-components"
-      },
-      {
-        label: "to TypeScript MongoDB",
-        path: "/graphql-to-typescript-mongodb"
       }
     ].map(x => ({
       ...x,
@@ -250,47 +130,8 @@ export const categorizedRoutes = [
     }))
   },
   {
-    category: "JSON-LD",
-    content: [
-      {
-        label: "to N-Quads",
-        path: "/jsonld-to-nquads"
-      },
-      {
-        label: "to Expanded",
-        path: "/jsonld-to-expanded"
-      },
-      {
-        label: "to Compacted",
-        path: "/jsonld-to-compacted"
-      },
-      {
-        label: "to Flattened",
-        path: "/jsonld-to-flattened"
-      },
-      {
-        label: "to Framed",
-        path: "/jsonld-to-framed"
-      },
-      {
-        label: "to Normalized",
-        path: "jsonld-to-normalized"
-      }
-    ].map(x => ({
-      ...x,
-      packageName: "jsonld",
-      packageUrl: "https://github.com/digitalbazaar/jsonld.js"
-    }))
-  },
-  {
     category: "TypeScript",
     content: [
-      {
-        label: "to Flow",
-        path: "/typescript-to-flow",
-        packageName: "flowgen",
-        packageUrl: "https://github.com/joarwilk/flowgen"
-      },
       {
         label: "to TypeScript Declaration",
         path: "/typescript-to-typescript-declaration"
@@ -308,33 +149,9 @@ export const categorizedRoutes = [
     ]
   },
   {
-    category: "Flow",
-    iconName: "",
-    content: [
-      {
-        label: "to TypeScript",
-        path: "/flow-to-typescript"
-      },
-      {
-        label: "to TypeScript Declaration",
-        path: "/flow-to-typescript-declaration"
-      },
-      {
-        label: "to plain JavaScript",
-        path: "/flow-to-javascript"
-      }
-    ]
-  },
-  {
     category: "Others",
     iconName: "",
     content: [
-      {
-        label: "XML to JSON",
-        path: "/xml-to-json",
-        packageName: "xml-js",
-        packageUrl: "https://github.com/nashwaan/xml-js"
-      },
       {
         label: "YAML to JSON",
         path: "/yaml-to-json",
